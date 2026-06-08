@@ -1,6 +1,32 @@
 # WDBC-Grupo8
 
 ---
+## Wisconsin Diagnostic Breast Cancer — Análisis Exploratorio de Datos
+
+**Inteligencia Artificial · 2026 · Grupo 8**  
+Luis Pinuer · Bryan Soto · Felipe Alvarado · Joaquín Barría
+
+---
+
+## Descripción del Proyecto
+
+Análisis exploratorio de datos del dataset WDBC (Wisconsin Diagnostic Breast Cancer) con el objetivo de identificar patrones que permitan predecir si un tumor de mama es maligno o benigno.
+
+**Hipótesis:** Los tumores malignos presentan mayor radio, área y concavidad que los benignos, lo que permite predecir el diagnóstico con alta precisión.
+
+---
+
+
+## Dataset
+
+| Característica | Detalle |
+|---|---|
+| Fuente | UCI Machine Learning Repository |
+| Registros originales | 569 |
+| Registros tras limpieza | 556 |
+| Features | 30 variables numéricas |
+| Variable objetivo | diagnosis (M = Maligno, B = Benigno) |
+| Distribución | 61.9% Benignos · 38.1% Malignos |
 
 ## Requisitos
 
@@ -30,29 +56,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - Análisis de correlaciones
 - Conclusiones del EDA
 
-# EDA-WDBC-Grupo8
-## Wisconsin Diagnostic Breast Cancer — Análisis Exploratorio de Datos
-
-**Inteligencia Artificial · 2026 · Grupo 8**  
-Luis Pinuer · Bryan Soto · Felipe Alvarado · Joaquín Barría
 
 ---
-
-## Descripción del Proyecto
-
-Análisis exploratorio de datos del dataset WDBC (Wisconsin Diagnostic Breast Cancer) con el objetivo de identificar patrones que permitan predecir si un tumor de mama es maligno o benigno.
-
-**Hipótesis:** Los tumores malignos presentan mayor radio, área y concavidad que los benignos, lo que permite predecir el diagnóstico con alta precisión.
-
----
-
-## Dataset
-
-| Característica | Detalle |
-|---|---|
-| Fuente | UCI Machine Learning Repository |
-| Registros originales | 569 |
-| Registros tras limpieza | 556 |
-| Features | 30 variables numéricas |
-| Variable objetivo | diagnosis (M = Maligno, B = Benigno) |
-| Distribución | 61.9% Benignos · 38.1% Malignos |
