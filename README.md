@@ -14,7 +14,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 1. Clonar el repositorio
 2. Instalar las dependencias
-3. Abrir `Cancer_Hito2.ipynb` en Jupyter Notebook o VS Code
+3. Abrir `Cancer.ipynb` en Jupyter Notebook o VS Code
 4. Ejecutar todas las celdas en orden
 
 ---
